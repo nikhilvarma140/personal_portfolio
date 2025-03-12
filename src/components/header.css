@@ -1,0 +1,54 @@
+.header{
+    position: relative;
+    position: sticky;
+  top: 0;
+  width: 100%;
+  background: #333;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  z-index: 1000;
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: "Shadows Into Light", cursive;
+  font-size: 1.5rem;
+
+
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 2rem;
+    font-weight: 500;
+}
+
+.logo{
+    font-family: "Honk", system-ui;
+    font-weight: 900;
+    color: #1E2A78 !important;
+    align-content: center;
+    letter-spacing: .25rem;
+    font-size: 1.5rem;
+   
+}
+
+.links{
+    display: flex;
+    gap: .75rem;
+}
+
+@media (min-width:767px) {
+    .top{
+        margin: 0 10rem
+    }
+    .links{
+        gap: 2rem;
+    }
+    .logo{
+        font-size: 2rem;
+    }
+    
+    
+}
