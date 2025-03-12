@@ -1,0 +1,48 @@
+.container{
+    height:100vh;
+     background-image: linear-gradient(
+          310deg,
+          hsl(240deg 100% 20%) 2%,
+          hsl(277deg 78% 24%) 24%,
+          hsl(295deg 50% 31%) 42%,
+          hsl(312deg 36% 42%) 56%,
+          hsl(325deg 31% 54%) 69%,
+          hsl(335deg 37% 65%) 79%,
+          hsl(344deg 44% 76%) 88%,
+          hsl(353deg 54% 86%) 95%,
+          hsl(0deg 100% 96%) 100%
+        );
+
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        /* dark theme gradient
+         background-image: linear-gradient(
+            310deg,
+            hsl(0deg 0% 0%) 12%,
+            hsl(2deg 67% 8%) 47%,
+            hsl(359deg 36% 12%) 66%,
+            hsl(359deg 28% 16%) 78%,
+            hsl(359deg 24% 20%) 87%,
+            hsl(359deg 20% 24%) 93%,
+            hsl(360deg 18% 28%) 97%,
+            hsl(360deg 16% 32%) 99%,
+            hsl(0deg 14% 37%) 100%
+          ); */
+        
+}
+
+h1 {
+    font-family: "Pacifico", cursive;
+    color:#ffffff;
+    padding: 1rem;
+    font-size: 3rem;
+}
+
+@media (min-width:767px) {
+    h1{
+        font-size: 4rem;
+    }
+    
+    
+}
