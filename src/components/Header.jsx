@@ -19,7 +19,7 @@ const Header = () => {
               cursor: "pointer",
               transition: "color 0.3s ease-in-out",
             }}
-            onClick={() => window.open("https://github.com/nikhilbleedsblue", "_blank")}
+            onClick={() => window.open("https://github.com/nikhilvarma140", "_blank")}
             onMouseEnter={() => setHoveredIcon("github")}
             onMouseLeave={() => setHoveredIcon(null)}
           />
