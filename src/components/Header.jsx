@@ -18,6 +18,7 @@ const Header = () => {
               color: hoveredIcon === "github" ? "white" : "black",
               cursor: "pointer",
               transition: "color 0.3s ease-in-out",
+              transform: hoveredIcon === "github" ? "translateY(-0.25rem)": "translateY(0)"
             }}
             onClick={() => window.open("https://github.com/nikhilvarma140", "_blank")}
             onMouseEnter={() => setHoveredIcon("github")}
@@ -29,6 +30,7 @@ const Header = () => {
               color: hoveredIcon === "linkedin" ?"#0a69c9" : "black",
               cursor: "pointer",
               transition: "color 0.3s ease-in-out",
+              transform: hoveredIcon === "linkedin" ? "translateY(-0.25rem)": "translateY(0)"
             }}
             onClick={() => window.open("https://www.linkedin.com/in/nikhil-varma-3b382a167/", "_blank")}
             onMouseEnter={() => setHoveredIcon("linkedin")}
@@ -40,6 +42,7 @@ const Header = () => {
               color: hoveredIcon === "mail" ? "#fe5f57" : "black",
               cursor: "pointer",
               transition: "color 0.3s ease-in-out",
+              transform: hoveredIcon === "mail" ? "translateY(-0.25rem)": "translateY(0)"
             }}
             onClick={() => (window.location.href = `mailto:nikhilvarma140@gmail.com`)}
             onMouseEnter={() => setHoveredIcon("mail")}
