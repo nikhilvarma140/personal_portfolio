@@ -1,8 +1,14 @@
 .detail_card{
-    background-color: #d6d8e1;    ;
+    background-color: #d6d8e1c6;    ;
     border-radius: 1.5rem;
     color: black;
     padding: 1.5rem;
+    transition: 0.2s ease-in-out;
+}
+
+.detail_card:hover{
+    background-color: #d6d8e1;
+    transform: scale(1.01);
 }
 
 .title h2{
@@ -13,4 +19,10 @@
     font-family: "Outfit", sans-serif;
     font-weight: 700;
     color: black;
+}
+
+@media (min-width:767px){
+    .detail_card:hover{
+        transform: scale(1.04);
+    }
 }

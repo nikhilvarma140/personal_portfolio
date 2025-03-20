@@ -11,8 +11,10 @@
 }
 
 img{
-    width: 100%;
+    width: 75%;
     border-radius: 1.5rem;
+    display: block;
+    margin: 0 auto;
 }
 .text_desc{
     color: #ffffff;
@@ -22,6 +24,9 @@ img{
 
 @media (min-width:767px) {
     .card{
-        padding: 2rem;
+        padding: 1rem;
+    }
+    img{
+        width: 100%;
     }
 }
