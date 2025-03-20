@@ -1,0 +1,16 @@
+.detail_card{
+    background-color: #d6d8e1;    ;
+    border-radius: 1.5rem;
+    color: black;
+    padding: 1.5rem;
+}
+
+.title h2{
+    font-family: "Outfit", sans-serif;;
+    font-weight: 900;
+}
+.subtitle h3{
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+    color: black;
+}

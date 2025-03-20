@@ -4,6 +4,7 @@ import Header from "./Header.jsx"
 import { useSelector,useDispatch } from "react-redux";
 import { updateName } from "../state/state.js";
 import Card from "./Card.jsx";
+import Detail from "./Detail.jsx";
 const Home = () => {
     const state = useSelector(state => state.state)
     const dispath  = useDispatch();
@@ -15,7 +16,16 @@ const Home = () => {
     return(
         <div className="container" style={ste}>
             <Header />
-            <h1>Welcome to the Nikhil's Portfolio</h1>
+            <h1>Hi, I am Nikhil</h1>
+            <div className="content">
+            <Card />
+            <div className="details">
+                <Detail />
+                <Detail />
+                <Detail />
+            </div>
+            </div>
+            
             {/* <button  onClick={handleClick}>click me</button>
             {show && state && (
                 <>
@@ -25,7 +35,7 @@ const Home = () => {
                
 
             )} */}
-            <Card />
+            
 
             
         </div>
