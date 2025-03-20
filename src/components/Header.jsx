@@ -15,7 +15,7 @@ const Header = () => {
           <FaGithub
             style={{
               fontSize: "2rem",
-              color: hoveredIcon === "github" ? "white" : "black",
+              color: hoveredIcon === "github" ? "white" : "#d6d8e1",
               cursor: "pointer",
               transition: "color 0.3s ease-in-out",
               transform: hoveredIcon === "github" ? "translateY(-0.25rem)": "translateY(0)"
@@ -27,7 +27,7 @@ const Header = () => {
           <FaLinkedin
             style={{
               fontSize: "2rem",
-              color: hoveredIcon === "linkedin" ?"#0a69c9" : "black",
+              color: hoveredIcon === "linkedin" ?"#0a69c9" : "#d6d8e1",
               cursor: "pointer",
               transition: "color 0.3s ease-in-out",
               transform: hoveredIcon === "linkedin" ? "translateY(-0.25rem)": "translateY(0)"
@@ -39,7 +39,7 @@ const Header = () => {
           <IoMdMail
             style={{
               fontSize: "2rem",
-              color: hoveredIcon === "mail" ? "#fe5f57" : "black",
+              color: hoveredIcon === "mail" ? "#fe5f57" : "#d6d8e1",
               cursor: "pointer",
               transition: "color 0.3s ease-in-out",
               transform: hoveredIcon === "mail" ? "translateY(-0.25rem)": "translateY(0)"
