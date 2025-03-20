@@ -21,6 +21,16 @@ img{
     font-family: "Outfit", sans-serif;;
     font-weight: 400;
 }
+.call{
+    display: flex;
+    text-align: center;
+    gap: .5rem;
+}
+.call a{
+    display: flex;
+    text-align: center;
+    gap: .5rem;
+}
 
 @media (min-width:767px) {
     .card{

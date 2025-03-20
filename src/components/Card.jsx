@@ -1,5 +1,7 @@
 import React from "react";
 import "./card.css"
+import PhoneIcon from "@mui/icons-material/Phone";
+import { IoMdMail } from "react-icons/io";
 
 import image from "./../assets/image.jpeg"
 import profile1 from "./../assets/profile2.jpeg"
@@ -11,7 +13,30 @@ const Card = ()=>{
         </div>
         <div className="text_desc">
             I am a front-end developer. I worked as ReactJS developer and I have relevant skills like SASS, NextJS, Git,GitLab,Axios, Material-UI, TypeScript and NodeJS
-            </div>
+        </div>
+        <div className="call">
+        <a href="tel:+918330911066" style={{ textDecoration: "none", color: "#d6d8e1" }}>
+            <PhoneIcon style={{ color: "#d6d8e1",cursor:"pointer" }}  onClick = {()=>{window.location.href = `tel:+918330911066`}}/>
+            
+        +91 8330911066
+      </a>
+        </div>
+        <div className="call">
+        <a href="mailto:nikhilvarma140@gmail.com" style={{ textDecoration: "none", color: "#d6d8e1" }}>
+        <IoMdMail
+            style={{
+              fontSize: "2rem",
+              color:  "#d6d8e1",
+              cursor: "pointer",
+            }}
+            onClick={() => (window.location.href = `mailto:nikhilvarma140@gmail.com`)}
+           
+          />
+            
+        nikhilvarma140@gmail.com
+      </a>
+        </div>
+
     </div>
     </>);
 }
