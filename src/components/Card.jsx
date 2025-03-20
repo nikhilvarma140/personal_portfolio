@@ -2,10 +2,14 @@ import React from "react";
 import "./card.css"
 import PhoneIcon from "@mui/icons-material/Phone";
 import { IoMdMail } from "react-icons/io";
+import { ImProfile } from "react-icons/im";
+
 
 import image from "./../assets/image.jpeg"
 import profile1 from "./../assets/profile2.jpeg"
 const Card = ()=>{
+    const resumeLink  = '12lYXkgFWUJvCzeUkcaKerNAFwFlBTnWb';
+    const driveLink = `https://drive.google.com/uc?export=download&id=${resumeLink}`;
     return(<>
     <div className="card">
         <div className="img_wrapper">
@@ -35,6 +39,20 @@ const Card = ()=>{
             
         nikhilvarma140@gmail.com
       </a>
+        </div>
+        <div className="call">
+        <a href={driveLink} style={{ textDecoration: "none", color: "#d6d8e1" }} download={"nikhil_resume.pdf"}>
+        <ImProfile
+            style={{
+              fontSize: "2rem",
+              color:  "#d6d8e1",
+              cursor: "pointer",
+            }}
+            onClick={() => (driveLink)}
+           
+          />
+          Download Resume
+          </a>
         </div>
 
     </div>
