@@ -81,6 +81,7 @@ font-family: "Barlow Semi Condensed", sans-serif; */
     }
     .details{
         padding: 3rem;
+        gap:3rem;
     }
     
 }
@@ -96,5 +97,7 @@ font-family: "Barlow Semi Condensed", sans-serif; */
     
     .container{
         height: 100vh;
+        padding: 3rem;
+        gap:3rem;
     }
 }

@@ -10,11 +10,15 @@
     background-color: #ffffff14;
 }
 
+.img_wrapper{
+    transition: 0.2s ease-in-out;
+}
 img{
     width: 75%;
     border-radius: 1.5rem;
     display: block;
     margin: 0 auto;
+    transition: 0.2s ease-in-out;
 }
 .text_desc{
     color: #ffffff;
