@@ -23,6 +23,58 @@ function App() {
 
 <>
     <Home/>
+    {/* <table style={{color:"white"
+    }}>
+        <thead>
+          <tr>
+            <th> sunday </th>
+            <th> monday </th>
+            <th> tuesday </th>
+            <th> wednesday </th>
+            <th> thursday </th>
+            <th> friday </th>
+            <th> saturday </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1 </td>
+            <td>2 </td>
+            <td>3 </td>
+            <td>4 </td>
+            <td>5 </td>
+            <td>6 </td>
+            <td>7 </td>
+          </tr>
+          <tr>
+            <td>1 </td>
+            <td>2 </td>
+            <td>3 </td>
+            <td>4 </td>
+            <td>5 </td>
+            <td>6 </td>
+            <td>7 </td>
+          </tr>
+          <tr>
+            <td>1 </td>
+            <td>2 </td>
+            <td>3 </td>
+            <td>4 </td>
+            <td>5 </td>
+            <td>6 </td>
+            <td>7 </td>
+          </tr>
+          <tr>
+            <td>1 </td>
+            <td>2 </td>
+            <td>3 </td>
+            <td>4 </td>
+            <td>5 </td>
+            <td>6 </td>
+            
+          </tr>
+        </tbody>
+      </table> */}
 </>
     
   );

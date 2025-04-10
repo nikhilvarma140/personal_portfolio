@@ -18,7 +18,8 @@ const Card = ()=>{
             <img src= { color? profile:profile1} alt="alt" />
         </div>
         <div className="text_desc">
-            I am a front-end developer. I worked as ReactJS developer and I have relevant skills like SASS, NextJS, Git,GitLab,Axios, Material-UI, TypeScript and NodeJS
+        Frontend React.js Developer with 2.5 years of experience in building dynamic and responsive web applications.
+Proficient in React.js, Next.js, JavaScript, and modern frontend technologies.
         </div>
         <div className="call">
         <a href="tel:+918330911066" style={{ textDecoration: "none", color: "#d6d8e1" }}>

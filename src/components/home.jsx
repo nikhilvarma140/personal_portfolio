@@ -20,8 +20,8 @@ const Home = () => {
             <div className="content">
             <Card />
             <div className="details">
-                <Detail />
-                <Detail />
+                <Detail type = {"exp"}/>
+                <Detail type ={"edu"}/>
                 <Detail />
             </div>
             </div>

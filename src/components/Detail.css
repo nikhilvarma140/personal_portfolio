@@ -20,7 +20,9 @@
     font-weight: 700;
     color: black;
 }
-
+li{
+    padding-bottom: 1rem;
+}
 @media (min-width:767px){
     .detail_card:hover{
         transform: scale(1.04);
